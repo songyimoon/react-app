@@ -20,7 +20,7 @@ class UpdateContent extends Component {
                   this.props.onSubmit(
                     e.target.title.value,
                     e.target.desc.value
-                  );
+                  ); 
                 }.bind(this)}>
             <p>
               <input 
