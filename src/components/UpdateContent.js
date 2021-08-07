@@ -23,7 +23,7 @@ class UpdateContent extends Component {
                   ); 
                 }.bind(this)}>
             <p>  
-              <input 
+              <input  
                 type="text" 
                 name="title" 
                 placeholder="title"
