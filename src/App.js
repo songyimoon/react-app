@@ -52,7 +52,7 @@ class App extends Component {
         var _contents = this.state.contents.concat({id: this.max_content_id, title:_title, desc:_desc});
         this.setState({
           contents: _contents
-        });
+        }); 
         console.log(_title, _desc);
       }.bind(this)}></CreateContent>
     } else if(this.state.mode === 'update'){
