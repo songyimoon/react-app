@@ -22,7 +22,7 @@ class UpdateContent extends Component {
                     e.target.desc.value
                   ); 
                 }.bind(this)}>
-            <p>
+            <p>  
               <input 
                 type="text" 
                 name="title" 
